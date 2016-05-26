@@ -56,5 +56,4 @@ for(n=1+p/2:1:p)
     y(n)=p-n;
 end
 subplot(2,3,6); plot2d3(t,y);
-
-
+xs2pdf(0,'discrete.pdf');

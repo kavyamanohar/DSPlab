@@ -55,14 +55,4 @@ for(n=1+p/2:1:p)
     y(n)=p-n;
 end
 subplot(2,3,6); plot(t,y);
-
-/
-;
-RESULT AND DISCUSSION:
-1. Familiarized SCILAB
-2. Basic experiments to generate different waveforms in discrete and continuous time domain were done.
-
-
-
-
-
+xs2pdf(0,'continuous.pdf');
