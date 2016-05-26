@@ -1,5 +1,4 @@
 //addition and subtraction
-
 n1=0:10;
 y1=[ones(1,5),zeros(1,6)];
 y2=[zeros(1,3),ones(1,4),zeros(1,4)];
@@ -25,3 +24,4 @@ plot2d3(n1,y4);
 xlabel('time');
 ylabel('amplitude');
 title('Subtraction of two Signals');
+xs2pdf(0,'addSubtract.pdf');

@@ -22,3 +22,4 @@ tr=-t
 subplot(2,2,4)
 plot2d3(tr,s);
 title('folded sequence');
+xs2pdf(0,'foldedsequence.pdf');

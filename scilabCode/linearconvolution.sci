@@ -6,11 +6,11 @@ x=input('Enter input sequence(eg:[1 2 3 4]):');
 h=input('Enter impulse response(eg:[1 2 3 4]):'); // defining impulse response
 n2=0:length(h)-1;
 //x=[1 2 3 4 5];
-x
-h
+disp('Input Sequence:',x)
+disp('Impulse Response:',h)
 n1=0:length(x)-1;
 y=convol(x,h);
-y
+disp('Resulting Sequence:',y)
 n=0:length(h)+length(x)-2;
 subplot(2,2,1)
 plot2d3(n2,h);
@@ -27,3 +27,5 @@ plot2d3(n,y);
 xlabel("time---->");
 ylabel("amplitude----->");
 title("LINEAR CONVOLUTION");
+xs2pdf(0,'linearconvolution.pdf');
+

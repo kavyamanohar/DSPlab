@@ -28,4 +28,4 @@ td=t+3
 subplot(2,3,6)
 plot(td,s);
 title('delayed sequence');
-
+xs2pdf(0,'timeshift.pdf');
