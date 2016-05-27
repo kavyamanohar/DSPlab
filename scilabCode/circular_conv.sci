@@ -31,3 +31,4 @@ disp (y,"y [ n]=");
 subplot(1,3,1);plot2d3(x1);
 subplot(1,3,2);plot2d3(x2);
 subplot(1,3,3);plot2d3(y);title('Circular convolution')
+xs2pdf(0,'circular_conv.pdf');

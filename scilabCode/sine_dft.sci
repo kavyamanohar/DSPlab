@@ -1,7 +1,7 @@
 // DFT – magnitude and phase plot
 //Frequency components of a signal
 //----------------------------------
-// build a noised signal sampled at 1000hz  containing  pure frequencies
+// build a noised signal sampled at 1000hz sampling rate containing  pure frequencies
 // at 50 and 70 Hz
 clc;
 clear;
@@ -32,3 +32,4 @@ plot(t,s);title('Sum of two sinewaves with additive noise')
 subplot(2,2,4)
 n=size(f,'*')
 plot(f,abs(y(1:n)));title('frequency spectrum of the signal on left')
+xs2pdf(0,'sine_dft.pdf');

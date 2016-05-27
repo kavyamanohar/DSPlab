@@ -15,3 +15,4 @@ disp(X2,"X2(k) =");
 subplot(2,3,4);plot2d3(x1);title('Sequence 2')
 subplot(2,3,5);plot2d3(abs(X2));title('Absolute value of DFT')
 subplot(2,3,6);plot2d3(atan(imag(X1),real(X1)));title('Phase of DFT')
+xs2pdf(0,'dft_sequence.pdf');
